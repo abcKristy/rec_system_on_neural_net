@@ -1,4 +1,4 @@
- Movie Recommendation System with Neural Collaborative Filtering
+### Movie Recommendation System with Neural Collaborative Filtering
 
 ## Описание проекта
 Проект представляет собой систему рекомендаций фильмов на основе:
@@ -8,6 +8,7 @@
 
 ## Структура проекта
 vkr/
+```bash
 ├── data_preparation/
 │ ├── prepare.py # Подготовка данных (нормализация, split)
 │ ├── movie_to_idx.npy # Маппинг названий фильмов в индексы
@@ -33,6 +34,7 @@ vkr/
 ├── all_users_recommend # Готовые рекомендации
 ├── X_train_*.npy # Тренировочные данные (GMF/MLP)
 └── y_*.npy # Целевые значения
+```
 
 ## Ключевые особенности
 1. `part1.py` - базовая реализация NeuMF:
