@@ -1,5 +1,4 @@
-## Movie Recommendation System 
-## with Neural Collaborative Filtering
+##### Movie Recommendation System with Neural Collaborative Filtering
 
 Проект представляет собой систему рекомендаций фильмов на основе:
 1. Нейросетевой коллаборативной фильтрации (NeuMF)
