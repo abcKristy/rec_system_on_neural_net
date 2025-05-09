@@ -60,13 +60,19 @@ vkr/
 - TensorFlow 2.6+
 - NumPy, Pandas, Scikit-learn
 
-## Использование
+# Использование
 
-# Подготовка данных
+## Подготовка данных
+```bash
 python prepare.py
+```
 
-# Запуск построения модели
-python part3.py 
+## Запуск построения модели
+```bash
+python part3.py
+```
 
-# Тестирование
+## Тестирование
+```bash
 python test.py
+```
